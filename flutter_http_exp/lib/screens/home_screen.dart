@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
               }
               if (snapshot.hasError) {
                 return Center(
-                  child: Text('error' + snapshot.error.toString()),
+                  child: Text('errorrr' + snapshot.error.toString()),
                 );
               }
               return ListView.builder(
