@@ -55,19 +55,19 @@ class HomePage extends StatelessWidget {
                                                 .updatePatchCoompleted(todo);
                                           },
                                           child: const NewWidget(
-                                            title: 'patch',
+                                            title: 'v2patch',
                                             color: Colors.purple,
                                           )),
                                       InkWell(
                                           onTap: () {},
                                           child: const NewWidget(
-                                            title: 'put',
+                                            title: 'v2put',
                                             color: Colors.orange,
                                           )),
                                       InkWell(
                                           onTap: () {},
                                           child: const NewWidget(
-                                            title: 'del',
+                                            title: 'v2del',
                                             color: Colors.cyan,
                                           )),
                                     ],
